@@ -17,7 +17,7 @@ r = redis.Redis(
     host='redis-18653.c91.us-east-1-3.ec2.cloud.redislabs.com',
     port=18653,
     decode_responses=True,
-    username='admin',  # Ensure this is the correct username
+    username='harsh',  # Ensure this is the correct username
     password='H@432004vsv'  # Ensure this is the correct password
 )
 
