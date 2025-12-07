@@ -128,7 +128,7 @@ with tab3:
         name_list = date_name_rol_zip_df['Name'].unique().tolist()
         name_in = st.selectbox('Select Name', ['ALL']+name_list)
 
-        # Filter Teachers or Students (role)
+        # Filter Trainers or Members (role)
         role_list = date_name_rol_zip_df['Role'].unique().tolist()
         role_in = st.selectbox('Select Role', ['ALL']+role_list)
 
