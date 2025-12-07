@@ -16,13 +16,12 @@ from redis import connection
 connection.ConnectionPool().disconnect()
 
 r = redis.Redis(
-    host='redis-18653.c91.us-east-1-3.ec2.cloud.redislabs.com',
-    port=18653,
-    username='harsh',  # Ensure this is the correct username
-    password='H@432004vsv'  # Ensure this is the correct password
-    ssl=True,
+    host='13.204.77.77',
+    port=6379,
+    socket_timeout=5,
     decode_responses=False,
 )
+
 
 # Test the connection
 try:
