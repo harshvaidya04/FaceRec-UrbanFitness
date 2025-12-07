@@ -10,7 +10,7 @@ st.subheader("Welcome to the Attendance System using Face Recognition")
 
 # Display gym image
 gym_image = Image.open('gym.jpg')
-st.image(gym_image, caption='Stay Fit, Stay Healthy!', use_column_width=True)
+st.image(gym_image, caption='Stay Fit, Stay Healthy!', width=None)
 
 # Add navigation options
 st.markdown("## What would you like to do?")
